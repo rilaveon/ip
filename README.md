@@ -1,6 +1,6 @@
 # Get IP
 ### Windows
 #### Powershell
-`Invoke-RestMethod ipr.now.sh`
+`Invoke-RestMethod ipr.vercel.app`
 ### Linux
-`curl --location ipr.now.sh`
+`curl --location ipr.vercel.app`
