@@ -1,5 +1,8 @@
 {
-  "redirects": [
-    { "source": "/", "destination": "/api/getIP" }
-  ]
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/api/index.js"
+        }
+    ]
 }
